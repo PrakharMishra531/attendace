@@ -1,0 +1,55 @@
+name: attendance_app
+description: "AttendanceApp - Local attendance management system"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Database
+  drift: ^2.18.0
+  sqlite3_flutter_libs: ^0.5.0
+  path_provider: ^2.1.2
+  path: ^1.9.0
+
+  # Excel
+  excel: 4.0.6
+
+  # File picker
+  file_picker: 11.0.2
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Navigation
+  go_router: ^13.2.0
+
+  # UI utilities
+  intl: ^0.19.0
+  flutter_slidable: ^3.1.0
+  shimmer: ^3.0.0
+  google_fonts: ^6.2.1
+
+  # Permissions & sharing
+  permission_handler: ^11.3.0
+  share_plus: ^10.0.0
+
+  # Utilities
+  uuid: ^4.4.0
+  archive: ^3.6.1
+  xml: ^6.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  drift_dev: ^2.18.0
+  build_runner: ^2.4.9
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
