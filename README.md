@@ -12,6 +12,12 @@ Import any `.xlsx` roll sheet, take date-tagged attendance sessions, edit and ex
 
 ---
 
+<p align="center">
+  <a href="https://github.com/PrakharMishra531/attendace/blob/main/screenshare.mp4">
+    <img src="demo-thumbnail.png" width="350" alt="Demo Video">
+  </a>
+</p>
+
 ## Use Case
 
 - You have a class list in Excel
